@@ -1,0 +1,28 @@
+{
+  "name": "create-nodality-vue",
+  "version": "1.0.90",
+  "description": "A scaffolding tool for creating Vue.js projects integrated with Nodality.",
+  "main": "bin/index.js",
+  "bin": {
+    "create-nodality-vue": "./bin/index.js"
+  },
+  "files": [
+    "bin/",
+    "templates/"
+  ],
+  "scripts": {},
+  "keywords": [
+    "nodality",
+    "vue",
+    "scaffolding",
+    "create"
+  ],
+  "author": "Filip Vabrousek",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
